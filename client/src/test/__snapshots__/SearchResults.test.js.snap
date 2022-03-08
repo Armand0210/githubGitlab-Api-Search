@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchResults shows results when a search is complete 1`] = `
+<ul
+  className="results-list"
+>
+  <li
+    className="result-bullet"
+  >
+    <p>
+      <strong>
+        Username: 
+      </strong>
+      Ram-N
+       
+      <br />
+      <strong>
+        Source: 
+      </strong>
+      Github
+       
+      <br />
+    </p>
+    <button
+      onClick={[Function]}
+      value={
+        Array [
+          "Github",
+          "Ram-N",
+        ]
+      }
+    >
+      View user
+    </button>
+  </li>
+  <li
+    className="result-bullet"
+  >
+    <p>
+      <strong>
+        Username: 
+      </strong>
+      inkscape
+       
+      <br />
+      <strong>
+        Source: 
+      </strong>
+      Gitlab
+       
+      <br />
+    </p>
+    <button
+      onClick={[Function]}
+      value={
+        Array [
+          "Gitlab",
+          "inkscape",
+        ]
+      }
+    >
+      View user
+    </button>
+  </li>
+</ul>
+`;

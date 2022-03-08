@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SearchBar is shown 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="search-input"
+      onChange={[Function]}
+      required={true}
+      type="text"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</div>
+`;

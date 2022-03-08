@@ -1,0 +1,117 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+.root {
+  background-color: antiquewhite;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+.avatar {
+  max-width: 40%;
+  max-height: 40%;
+}
+
+.repo-bullet span {
+  padding: 10px;
+}
+
+.search-input {
+  padding: 8px 15px;
+  margin: 20px;
+  border: 1px solid lightgray;
+  border-radius: 5px;
+}
+
+.search-button {
+  margin: 0 20px;
+}
+
+.placeholder {
+  margin-bottom: 20px;
+}
+
+.results-list {
+  list-style: lower-roman;
+  padding: 0;
+}
+
+.commits-list {
+  padding-left: 15px;
+  padding-right: 15px;
+  list-style: square;
+}
+
+.commit-bullet {
+  text-align: left;
+  list-style: circle;
+  padding: 5px 0 5px 5px;
+}
+
+.single-user {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: left;
+  height: 75vh;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width: 750px) {
+  h1 {
+    padding-top: 20px;
+  }
+
+  .search-input {
+    margin: 20px 0 20px 20px;
+  }
+
+  .result-bullet {
+    display: inline-block;
+    margin: 0 35px;
+  }
+
+  .repo-list {
+    list-style: normal;
+  }
+  .repo-bullet {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .repo-bullet span {
+    padding-right: 30px;
+  }
+  a {
+    width: 100%;
+  }
+}
+
+/* Added this to space div's nicely*/
+.commits-list {
+  padding-left: 60px;
+}
+.maincontainer {
+  display: flex;
+  height: 200px;
+  justify-content: center;
+}
+.single-repo {
+  height: 75vh;
+}
+.first {
+  flex: 50%;
+  height: 75vh;
+  width: 40%;
+}
+.second {
+  flex: 50%;
+  height: 75vh;
+  width: 40%;
+}
